@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-group :test, :development do
-  gem ''
-  gem ''
-  gem ''
+gem 'sinatra'
+
+group :test do
+  gem 'rspec'
+  gem 'capybara'
 end
