@@ -61,11 +61,18 @@ Ruby 2.6.3
 App
 rackup -p 4567 
 
-PSQL Database
+PSQL Create bookmark_manager
 1 - Connect to psql
 2 - Create the database using the psql command CREATE DATABASE bookmark_manager;
 3 - Connect to the database using the pqsl command \c bookmark_manager;
 4 - Run the query we have saved in the file 01_create_bookmarks_table.sql
+
+PSQL Create bookmark_manager_test
+1 - Connect to psql
+2 - Create the database using the psql command CREATE DATABASE bookmark_manager_test;
+3 - Connect to the database using the pqsl command \c bookmark_manager_test;
+4 - Run the query we have saved in the file 01_create_bookmarks_table.sql
+
 
 ## Launch
 
