@@ -7,6 +7,7 @@ Brief introduction of project
 * [Description](#description)
 * [User Story](#user_story)
 * [Technologies](#technologies)
+* [How to Use](#how_to_use)
 * [Launch](#launch)
 * [Project Status](#project-status)
 * [Sources](#sources)
@@ -54,6 +55,17 @@ I would like users to only be able to access their bookmarks.
 ## Technologies
 
 Ruby 2.6.3
+
+## How to Use
+
+App
+rackup -p 4567 
+
+PSQL Database
+1 - Connect to psql
+2 - Create the database using the psql command CREATE DATABASE bookmark_manager;
+3 - Connect to the database using the pqsl command \c bookmark_manager;
+4 - Run the query we have saved in the file 01_create_bookmarks_table.sql
 
 ## Launch
 
