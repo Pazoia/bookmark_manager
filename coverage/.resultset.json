@@ -14,9 +14,18 @@
           1,
           1,
           1,
+          1,
           null,
           1,
           null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
           1,
           1,
           1,
@@ -25,10 +34,20 @@
           null
         ]
       },
+      "/Volumes/Macintosh HD - Data/Users/student/projects/makers_onsite/week_4/bookmark_manager/spec/features/add_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Volumes/Macintosh HD - Data/Users/student/projects/makers_onsite/week_4/bookmark_manager/spec/features/infrastructure_test_spec.rb": {
         "lines": [
-          null,
-          null,
           1,
           1,
           1,
@@ -60,6 +79,6 @@
         ]
       }
     },
-    "timestamp": 1581440970
+    "timestamp": 1581606888
   }
 }

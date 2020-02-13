@@ -1,6 +1,15 @@
+<h1>Bookmarks Manager</h1>
 
-<ul>
-  <% @bookmarks.each do |bookmark| %>
-    <li><%= bookmark %></li>
-  <% end %>
-</ul>
+<div>
+  <ul>
+    <% @bookmarks.each do |bookmark| %>
+      <li><%= bookmark %></li>
+    <% end %>
+  </ul>
+</div>
+
+<div>
+  <form action='/add_bookmark'>
+    <input type='submit' value='New Bookmark'>
+  </form>
+</div>
